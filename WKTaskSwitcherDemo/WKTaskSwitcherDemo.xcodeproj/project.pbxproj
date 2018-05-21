@@ -18,6 +18,7 @@
 		4C545D7520B296AC000E5D72 /* WKTaskSwitcherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C545D6F20B296AC000E5D72 /* WKTaskSwitcherCell.m */; };
 		4C545D7620B296AC000E5D72 /* WKTaskSwitcherFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C545D7020B296AC000E5D72 /* WKTaskSwitcherFlowLayout.m */; };
 		4C545D7720B296AC000E5D72 /* WKTaskSwitcherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C545D7420B296AC000E5D72 /* WKTaskSwitcherViewController.m */; };
+		4C545D7920B298D6000E5D72 /* taskSwitcher.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4C545D7820B298D6000E5D72 /* taskSwitcher.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		4C545D7220B296AC000E5D72 /* WKTaskSwitcherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTaskSwitcherCell.h; sourceTree = "<group>"; };
 		4C545D7320B296AC000E5D72 /* WKTaskSwitcherFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTaskSwitcherFlowLayout.h; sourceTree = "<group>"; };
 		4C545D7420B296AC000E5D72 /* WKTaskSwitcherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTaskSwitcherViewController.m; sourceTree = "<group>"; };
+		4C545D7820B298D6000E5D72 /* taskSwitcher.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = taskSwitcher.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		4C545D3B20B29696000E5D72 /* WKTaskSwitcherDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4C545D7820B298D6000E5D72 /* taskSwitcher.gif */,
 				4C545D3C20B29696000E5D72 /* AppDelegate.h */,
 				4C545D3D20B29696000E5D72 /* AppDelegate.m */,
 				4C545D3F20B29696000E5D72 /* ViewController.h */,
@@ -259,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C545D7920B298D6000E5D72 /* taskSwitcher.gif in Resources */,
 				4C545D4920B29699000E5D72 /* LaunchScreen.storyboard in Resources */,
 				4C545D4620B29699000E5D72 /* Assets.xcassets in Resources */,
 				4C545D4420B29696000E5D72 /* Main.storyboard in Resources */,
