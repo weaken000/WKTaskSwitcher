@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C545D3E20B29696000E5D72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C545D3D20B29696000E5D72 /* AppDelegate.m */; };
+		4C545D4120B29696000E5D72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C545D4020B29696000E5D72 /* ViewController.m */; };
+		4C545D4420B29696000E5D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C545D4220B29696000E5D72 /* Main.storyboard */; };
+		4C545D4620B29699000E5D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C545D4520B29699000E5D72 /* Assets.xcassets */; };
+		4C545D4920B29699000E5D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C545D4720B29699000E5D72 /* LaunchScreen.storyboard */; };
+		4C545D4C20B29699000E5D72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C545D4B20B29699000E5D72 /* main.m */; };
+		4C545D5620B29699000E5D72 /* WKTaskSwitcherDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C545D5520B29699000E5D72 /* WKTaskSwitcherDemoTests.m */; };
+		4C545D6120B2969A000E5D72 /* WKTaskSwitcherDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C545D6020B2969A000E5D72 /* WKTaskSwitcherDemoUITests.m */; };
+		4C545D7520B296AC000E5D72 /* WKTaskSwitcherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C545D6F20B296AC000E5D72 /* WKTaskSwitcherCell.m */; };
+		4C545D7620B296AC000E5D72 /* WKTaskSwitcherFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C545D7020B296AC000E5D72 /* WKTaskSwitcherFlowLayout.m */; };
+		4C545D7720B296AC000E5D72 /* WKTaskSwitcherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C545D7420B296AC000E5D72 /* WKTaskSwitcherViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C545D5220B29699000E5D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C545D3120B29696000E5D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C545D3820B29696000E5D72;
+			remoteInfo = WKTaskSwitcherDemo;
+		};
+		4C545D5D20B29699000E5D72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C545D3120B29696000E5D72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C545D3820B29696000E5D72;
+			remoteInfo = WKTaskSwitcherDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C545D3920B29696000E5D72 /* WKTaskSwitcherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKTaskSwitcherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C545D3C20B29696000E5D72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C545D3D20B29696000E5D72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C545D3F20B29696000E5D72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C545D4020B29696000E5D72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C545D4320B29696000E5D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C545D4520B29699000E5D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C545D4820B29699000E5D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C545D4A20B29699000E5D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C545D4B20B29699000E5D72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C545D5120B29699000E5D72 /* WKTaskSwitcherDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKTaskSwitcherDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C545D5520B29699000E5D72 /* WKTaskSwitcherDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKTaskSwitcherDemoTests.m; sourceTree = "<group>"; };
+		4C545D5720B29699000E5D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C545D5C20B29699000E5D72 /* WKTaskSwitcherDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKTaskSwitcherDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C545D6020B2969A000E5D72 /* WKTaskSwitcherDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKTaskSwitcherDemoUITests.m; sourceTree = "<group>"; };
+		4C545D6220B2969A000E5D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C545D6F20B296AC000E5D72 /* WKTaskSwitcherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTaskSwitcherCell.m; sourceTree = "<group>"; };
+		4C545D7020B296AC000E5D72 /* WKTaskSwitcherFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTaskSwitcherFlowLayout.m; sourceTree = "<group>"; };
+		4C545D7120B296AC000E5D72 /* WKTaskSwitcherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTaskSwitcherViewController.h; sourceTree = "<group>"; };
+		4C545D7220B296AC000E5D72 /* WKTaskSwitcherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTaskSwitcherCell.h; sourceTree = "<group>"; };
+		4C545D7320B296AC000E5D72 /* WKTaskSwitcherFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKTaskSwitcherFlowLayout.h; sourceTree = "<group>"; };
+		4C545D7420B296AC000E5D72 /* WKTaskSwitcherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKTaskSwitcherViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C545D3620B29696000E5D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C545D4E20B29699000E5D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C545D5920B29699000E5D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C545D3020B29696000E5D72 = {
+			isa = PBXGroup;
+			children = (
+				4C545D6E20B296AC000E5D72 /* WKTaskSwitcher */,
+				4C545D3B20B29696000E5D72 /* WKTaskSwitcherDemo */,
+				4C545D5420B29699000E5D72 /* WKTaskSwitcherDemoTests */,
+				4C545D5F20B29699000E5D72 /* WKTaskSwitcherDemoUITests */,
+				4C545D3A20B29696000E5D72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C545D3A20B29696000E5D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C545D3920B29696000E5D72 /* WKTaskSwitcherDemo.app */,
+				4C545D5120B29699000E5D72 /* WKTaskSwitcherDemoTests.xctest */,
+				4C545D5C20B29699000E5D72 /* WKTaskSwitcherDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C545D3B20B29696000E5D72 /* WKTaskSwitcherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4C545D3C20B29696000E5D72 /* AppDelegate.h */,
+				4C545D3D20B29696000E5D72 /* AppDelegate.m */,
+				4C545D3F20B29696000E5D72 /* ViewController.h */,
+				4C545D4020B29696000E5D72 /* ViewController.m */,
+				4C545D4220B29696000E5D72 /* Main.storyboard */,
+				4C545D4520B29699000E5D72 /* Assets.xcassets */,
+				4C545D4720B29699000E5D72 /* LaunchScreen.storyboard */,
+				4C545D4A20B29699000E5D72 /* Info.plist */,
+				4C545D4B20B29699000E5D72 /* main.m */,
+			);
+			path = WKTaskSwitcherDemo;
+			sourceTree = "<group>";
+		};
+		4C545D5420B29699000E5D72 /* WKTaskSwitcherDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C545D5520B29699000E5D72 /* WKTaskSwitcherDemoTests.m */,
+				4C545D5720B29699000E5D72 /* Info.plist */,
+			);
+			path = WKTaskSwitcherDemoTests;
+			sourceTree = "<group>";
+		};
+		4C545D5F20B29699000E5D72 /* WKTaskSwitcherDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C545D6020B2969A000E5D72 /* WKTaskSwitcherDemoUITests.m */,
+				4C545D6220B2969A000E5D72 /* Info.plist */,
+			);
+			path = WKTaskSwitcherDemoUITests;
+			sourceTree = "<group>";
+		};
+		4C545D6E20B296AC000E5D72 /* WKTaskSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				4C545D6F20B296AC000E5D72 /* WKTaskSwitcherCell.m */,
+				4C545D7020B296AC000E5D72 /* WKTaskSwitcherFlowLayout.m */,
+				4C545D7120B296AC000E5D72 /* WKTaskSwitcherViewController.h */,
+				4C545D7220B296AC000E5D72 /* WKTaskSwitcherCell.h */,
+				4C545D7320B296AC000E5D72 /* WKTaskSwitcherFlowLayout.h */,
+				4C545D7420B296AC000E5D72 /* WKTaskSwitcherViewController.m */,
+			);
+			name = WKTaskSwitcher;
+			path = ../WKTaskSwitcher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C545D3820B29696000E5D72 /* WKTaskSwitcherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C545D6520B2969A000E5D72 /* Build configuration list for PBXNativeTarget "WKTaskSwitcherDemo" */;
+			buildPhases = (
+				4C545D3520B29696000E5D72 /* Sources */,
+				4C545D3620B29696000E5D72 /* Frameworks */,
+				4C545D3720B29696000E5D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKTaskSwitcherDemo;
+			productName = WKTaskSwitcherDemo;
+			productReference = 4C545D3920B29696000E5D72 /* WKTaskSwitcherDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C545D5020B29699000E5D72 /* WKTaskSwitcherDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C545D6820B2969A000E5D72 /* Build configuration list for PBXNativeTarget "WKTaskSwitcherDemoTests" */;
+			buildPhases = (
+				4C545D4D20B29699000E5D72 /* Sources */,
+				4C545D4E20B29699000E5D72 /* Frameworks */,
+				4C545D4F20B29699000E5D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C545D5320B29699000E5D72 /* PBXTargetDependency */,
+			);
+			name = WKTaskSwitcherDemoTests;
+			productName = WKTaskSwitcherDemoTests;
+			productReference = 4C545D5120B29699000E5D72 /* WKTaskSwitcherDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C545D5B20B29699000E5D72 /* WKTaskSwitcherDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C545D6B20B2969A000E5D72 /* Build configuration list for PBXNativeTarget "WKTaskSwitcherDemoUITests" */;
+			buildPhases = (
+				4C545D5820B29699000E5D72 /* Sources */,
+				4C545D5920B29699000E5D72 /* Frameworks */,
+				4C545D5A20B29699000E5D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C545D5E20B29699000E5D72 /* PBXTargetDependency */,
+			);
+			name = WKTaskSwitcherDemoUITests;
+			productName = WKTaskSwitcherDemoUITests;
+			productReference = 4C545D5C20B29699000E5D72 /* WKTaskSwitcherDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C545D3120B29696000E5D72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = weaken;
+				TargetAttributes = {
+					4C545D3820B29696000E5D72 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4C545D5020B29699000E5D72 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4C545D3820B29696000E5D72;
+					};
+					4C545D5B20B29699000E5D72 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4C545D3820B29696000E5D72;
+					};
+				};
+			};
+			buildConfigurationList = 4C545D3420B29696000E5D72 /* Build configuration list for PBXProject "WKTaskSwitcherDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C545D3020B29696000E5D72;
+			productRefGroup = 4C545D3A20B29696000E5D72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C545D3820B29696000E5D72 /* WKTaskSwitcherDemo */,
+				4C545D5020B29699000E5D72 /* WKTaskSwitcherDemoTests */,
+				4C545D5B20B29699000E5D72 /* WKTaskSwitcherDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C545D3720B29696000E5D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C545D4920B29699000E5D72 /* LaunchScreen.storyboard in Resources */,
+				4C545D4620B29699000E5D72 /* Assets.xcassets in Resources */,
+				4C545D4420B29696000E5D72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C545D4F20B29699000E5D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C545D5A20B29699000E5D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C545D3520B29696000E5D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C545D7720B296AC000E5D72 /* WKTaskSwitcherViewController.m in Sources */,
+				4C545D4120B29696000E5D72 /* ViewController.m in Sources */,
+				4C545D7520B296AC000E5D72 /* WKTaskSwitcherCell.m in Sources */,
+				4C545D4C20B29699000E5D72 /* main.m in Sources */,
+				4C545D7620B296AC000E5D72 /* WKTaskSwitcherFlowLayout.m in Sources */,
+				4C545D3E20B29696000E5D72 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C545D4D20B29699000E5D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C545D5620B29699000E5D72 /* WKTaskSwitcherDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C545D5820B29699000E5D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C545D6120B2969A000E5D72 /* WKTaskSwitcherDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C545D5320B29699000E5D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C545D3820B29696000E5D72 /* WKTaskSwitcherDemo */;
+			targetProxy = 4C545D5220B29699000E5D72 /* PBXContainerItemProxy */;
+		};
+		4C545D5E20B29699000E5D72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C545D3820B29696000E5D72 /* WKTaskSwitcherDemo */;
+			targetProxy = 4C545D5D20B29699000E5D72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C545D4220B29696000E5D72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C545D4320B29696000E5D72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C545D4720B29699000E5D72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C545D4820B29699000E5D72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C545D6320B2969A000E5D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C545D6420B2969A000E5D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C545D6620B2969A000E5D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z223V4SGH;
+				INFOPLIST_FILE = WKTaskSwitcherDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weaken.WKTaskSwitcherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C545D6720B2969A000E5D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z223V4SGH;
+				INFOPLIST_FILE = WKTaskSwitcherDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weaken.WKTaskSwitcherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C545D6920B2969A000E5D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z223V4SGH;
+				INFOPLIST_FILE = WKTaskSwitcherDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weaken.WKTaskSwitcherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKTaskSwitcherDemo.app/WKTaskSwitcherDemo";
+			};
+			name = Debug;
+		};
+		4C545D6A20B2969A000E5D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z223V4SGH;
+				INFOPLIST_FILE = WKTaskSwitcherDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weaken.WKTaskSwitcherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKTaskSwitcherDemo.app/WKTaskSwitcherDemo";
+			};
+			name = Release;
+		};
+		4C545D6C20B2969A000E5D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z223V4SGH;
+				INFOPLIST_FILE = WKTaskSwitcherDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weaken.WKTaskSwitcherDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WKTaskSwitcherDemo;
+			};
+			name = Debug;
+		};
+		4C545D6D20B2969A000E5D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z223V4SGH;
+				INFOPLIST_FILE = WKTaskSwitcherDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = weaken.WKTaskSwitcherDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WKTaskSwitcherDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C545D3420B29696000E5D72 /* Build configuration list for PBXProject "WKTaskSwitcherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C545D6320B2969A000E5D72 /* Debug */,
+				4C545D6420B2969A000E5D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C545D6520B2969A000E5D72 /* Build configuration list for PBXNativeTarget "WKTaskSwitcherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C545D6620B2969A000E5D72 /* Debug */,
+				4C545D6720B2969A000E5D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C545D6820B2969A000E5D72 /* Build configuration list for PBXNativeTarget "WKTaskSwitcherDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C545D6920B2969A000E5D72 /* Debug */,
+				4C545D6A20B2969A000E5D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C545D6B20B2969A000E5D72 /* Build configuration list for PBXNativeTarget "WKTaskSwitcherDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C545D6C20B2969A000E5D72 /* Debug */,
+				4C545D6D20B2969A000E5D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C545D3120B29696000E5D72 /* Project object */;
+}
